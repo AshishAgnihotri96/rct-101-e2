@@ -1,10 +1,8 @@
 import React from "react";
+import {Button,ButtonGroup,Select} from '@chakra-ui/icons'
 
 const Pagination = () => {
-  // TODO: Remove below const and instead import them from chakra
-  const Button = () => <div />;
-  const ButtonGroup = () => <div />;
-  const Select = () => <div />;
+  
 
   return (
     <ButtonGroup>
@@ -18,6 +16,7 @@ const Pagination = () => {
       <Button data-cy="pagination-next-button"></Button>
       <Button data-cy="pagination-last-button"></Button>
     </ButtonGroup>
+    
   );
 };
 
